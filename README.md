@@ -2,13 +2,13 @@
 SkyFeed is a clean, modern weather application that provides real-time weather information for any city worldwide.
 It uses the OpenWeatherMap API to fetch accurate and live weather data.
 ## Features
-<p>
+```
 1.Get live weather data for any city
 2.Displays temperature, humidity, and weather description
 3.Clean and responsive user interface
 4.Uses OpenWeatherMap API for reliable data
 5.Built with HTML, CSS, and JavaScript
-</p>
+```
 
 ## TechStack
 ```
