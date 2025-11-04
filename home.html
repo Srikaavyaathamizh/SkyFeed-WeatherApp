@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SkyFeed Weather</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🌤 SkyFeed</h1>
+    <div class="search-box">
+      <input type="text" id="city" placeholder="Enter city name">
+      <button id="search-btn">Search</button>
+    </div>
+    <div class="weather-card" id="weather-card">
+      <div class="city-name" id="city-name">Search for a city</div>
+      <div class="weather-icon" id="weather-icon">☀️</div>
+      <div class="temperature" id="temperature">--°C</div>
+      <div class="weather-desc" id="weather-desc">--</div>
+      <div class="details">
+        <div class="detail-item">
+          <span>🕒 Local Time</span>
+          <span id="local-time">--</span>
+        </div>
+        <div class="detail-item">
+          <span>🌡 Feels Like</span>
+          <span id="feels-like">--°C</span>
+        </div>
+        <div class="detail-item">
+          <span>💧 Humidity</span>
+          <span id="humidity">--%</span>
+        </div>
+        <div class="detail-item">
+          <span>💨 Wind</span>
+          <span id="wind">-- m/s</span>
+        </div>
+        <div class="detail-item">
+          <span>🌈 Condition</span>
+          <span id="condition">--</span>
+        </div>
+      </div>
+    </div>
+    <div class="footer">Powered by OpenWeatherMap</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
